@@ -11,6 +11,7 @@ for (var i = 0; i < packagesParse.packageArray.length; i++) {
         <h3>From: ${item.from}</h3>
         <section class="bottom-right"><h3>${item.package} Package</h3></section>
         <section class="testimonialText"><h3><em>"${item.testimonial}"</em></h3></section>
+        <button class="button"><span>${item.button}</span></button>
         </section>
         `
     }
