@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+img {
+    width: 600px;
+    height: 370px;
+   
+}
+
+.maps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+
+}
+
+.chooseMap {
+    border-radius: 5px;
+    object-fit: contain;
+    width: 600px;
+    height: 370px;
+    padding: 15px;
+}
