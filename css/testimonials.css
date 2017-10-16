@@ -1,0 +1,39 @@
+img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+} 
+
+/* card set up */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    break-inside: avoid-column;
+    text-align: center;
+}
+
+/* column set up */
+div {
+    column-count: 3;
+    column-gap: 40%;
+}
+
+/* adding text to the images */
+.bottom-right {
+    position: relative;
+    bottom: 133px;
+    right: 0px;
+    background-color: rgba(196, 196, 196, 0.6);
+}
+
+/* testimonial text styling */
+.testimonialText {
+    background-color: rgba(196, 196, 196, 0.6);
+    margin-top: -40px;
+}
+
+
+
+
+
+
