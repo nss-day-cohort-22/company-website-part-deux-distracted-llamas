@@ -40,15 +40,17 @@ for (let key in AdventureDatabase) {
                 <picture>
                     <img src="${item.photo}">
                 </picture>
+                <section class="packageInfo">
                 <h1 class="advTitle">${item.title}</h1>
-                <h4>${item.guide}</h4>
-                <h4>${item.duration}</h4>
+                <h4>Guide: ${item.guide}</h4>
+                <h4>Trip Length: ${item.duration}</h4>
                 <ul class="highlights">
                     <li>${item.highlight1}</li>
                     <li>${item.highlight2}</li>
                     <li>${item.highlight3}</li>
                     <li>${item.highlight4}</li>
                 </ul>
+                </section>
             </section>
         </div>    
         </article>

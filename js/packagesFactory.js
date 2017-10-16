@@ -15,10 +15,10 @@ const hogwarts = {
     "title": "HOGWARTS",
     "photo": "img/hogCastle.jpg",
     "guide": "Kimmy Bird",
-    "highlight1": " - Go on a shopping spree in Diagon Alley.",
-    "highlight2": " - Everflowing Butter Beer.",
-    "highlight3": " - Wear the enchanted sorting hat that once belonged to Godric Gryffindor to find out which house you belong to.",
-    "highlight4": " - Play Quidditch",
+    "highlight1": "Go on a shopping spree in Diagon Alley.",
+    "highlight2": "Everflowing Butter Beer.",
+    "highlight3": "Wear the enchanted sorting hat that once belonged to Godric Gryffindor to find out which house you belong to.",
+    "highlight4": "Play Quidditch",
     "duration": "4 Days"
 }
 
@@ -27,10 +27,10 @@ const thrones = {
     "title": "WESTEROS",
     "photo": "img/westeros.jpg",
     "guide": "Jenna Solis",
-    "highlight1": " - Sit on the Iron Throne.",
-    "highlight2": " - Climb the Wall with the Night's Watch.",
-    "highlight3": " - Avoid ALL Weddings",
-    "highlight4": " - Ride a dragon ... yell Dracarys if you're feeling brave.",
+    "highlight1": "Sit on the Iron Throne.",
+    "highlight2": "Climb the Wall with the Night's Watch.",
+    "highlight3": "Avoid ALL Weddings",
+    "highlight4": "Ride a dragon ... yell Dracarys if you're feeling brave.",
     "duration": "7 Days"
 }
 
@@ -39,10 +39,10 @@ const narnia = {
     "title": "NARNIA",
     "photo": "img/narnia.jpg",
     "guide": "Jason Figueroa",
-    "highlight1": " - All you can eat Turkish Delight.",
-    "highlight2": " - Take a selfie with Aslan.",
-    "highlight3": " - Sail the Siver Sea aboard the Dawn Treader.",
-    "highlight4": " - Camp in the Wood Between the Worlds",
+    "highlight1": "All you can eat Turkish Delight.",
+    "highlight2": "Take a selfie with Aslan.",
+    "highlight3": "Sail the Siver Sea aboard the Dawn Treader.",
+    "highlight4": "Camp in the Wood Between the Worlds",
     "duration": "10 Days"
 }
 
