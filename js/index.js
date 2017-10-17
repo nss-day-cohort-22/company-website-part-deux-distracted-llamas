@@ -35,6 +35,15 @@ $('#personal-guides-btn').click(function () {
         behavior: 'smooth'
     });
 });
+$('#packages-card').click(function () {
+    window.location.href = "http://stackoverflow.com";
+});
+$('#testimonials-card').click(function () {
+    window.location.href = "http://stackoverflow.com";
+});
+$('#personal-guides-card').click(function () {
+    window.location.href = "http://stackoverflow.com";
+});
 // $('#contact-btn').click(function () {
 //     document.querySelector('#contact').scrollIntoView({
 //         behavior: 'smooth'
