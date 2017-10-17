@@ -1,6 +1,6 @@
-const AdventureDatabase = JSON.parse(localStorage.getItem("adventureData"))
-const advElement = document.getElementsByClassName("adventure")[0]
-const mapElement = document.getElementsByClassName("maps")[0]
+const AdventureDatabase = JSON.parse(localStorage.getItem("adventureData"));
+const advElement = document.getElementsByClassName("adventure")[0];
+const mapElement = document.getElementsByClassName("maps")[0];
 
 // Loop over keys in the database
 for (let key in AdventureDatabase) {
@@ -45,6 +45,7 @@ for (let key in AdventureDatabase) {
         </div
         <div class="wrapper">
              <section class="package">
+             </div>
                 <picture>
                     <img src="${item.photo}" class="packagePhoto">
                 </picture>
@@ -59,11 +60,10 @@ for (let key in AdventureDatabase) {
                     <li>${item.highlight3}</li>
                     <li>${item.highlight4}</li>
                 </ul>
-                <a href=”#top” class=”back-to-top”>
-                
-               <i class=”fa fa-arrow-circle-up”></i>
-                
-               </a>
+                <div class="btn">
+                <button class="button"><span>REGISTER</span></button>
+                <a href="#top" ><button class="button"><span>BACK TO TOP</span></button></a>
+                </div>
                 </section>
                 </div>
             </section>
@@ -73,3 +73,6 @@ for (let key in AdventureDatabase) {
         `
     }
 }
+
+
+

@@ -1,0 +1,19 @@
+/* Cosmetic only */
+.easyPaginateNav a {
+    padding:10px;
+    color: black;
+}
+
+a {
+text-decoration: underline;
+
+}
+
+.easyPaginateNav a.current {
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.easyPaginateNav {
+    text-align: center;
+}
