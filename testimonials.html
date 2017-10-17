@@ -4,22 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="css/testimonials.css" rel="stylesheet">
     <link href=“https://fonts.googleapis.com/css?family=Lato” rel=“stylesheet”>
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1>Testimonials</h1>
-        <h2><em>These guys visited their favorite FairyBnB - where will you go?</em></h2>
-    </header>
+    
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon-bed.ico" type="image/x-icon"/>
+    <title>FairyBnB</title>
+    
+    <!-- <link rel="stylesheet" href="css/awesome-background.css"> -->
+    <link rel="stylesheet" href="css/layout.css">
+    <link href="css/testimonials.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-    <div>
-        <article class="testimonials">
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- font awesome cdn -->
+    <script src="https://use.fontawesome.com/1fa079d759.js"></script>
+</head>
+
+<body>
+    <div id="layout-container">
+            <div id="nav">
+                <header><a href="/">FairyBnB</a></header>
+                <nav>
+                    <ul>
+                        <li id="packages-btn">Packages</li>
+                        <li id="testimonials-btn">Testimonials</li>
+                        <li id="personal-guides-btn">Personal Guides</li>                
+                    </ul>
+                </nav>
+            </div>
+    </div>
+
+    <div class="testContent">
+        <article>
+            <h1 class="testHead">Testimonials</h1>
+            <h2><em>These guys visited their favorite FairyBnB - where will you go?</em></h2>
         </article>
+
+        <div class="testColumns">
+            <article class="testimonials">
+            </article>
+        </div>
+
+        <div id="back-to-top-container">
+                <i id="back-to-top" class="pulsate fa fa-angle-double-up" aria-hidden="true"></i>
+                <a href="mailto:support@fairybnb.com" target="_top">
+                    <ul>
+                        <li><i id="support" class="fa fa-envelope-o" aria-hidden="true"></i></li>
+                        <li>Support</li>
+                    </ul>
+                </a>            
+            </div>
+        </div>   
     </div>
 
     <script src="../js/testimonialsFactory.js"></script>
     <script src="../js/testimonialsController.js"></script>
+    <script src="js/layout.js"></script>
 </body>
 </html>
