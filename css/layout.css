@@ -43,7 +43,7 @@ body, html{
     cursor: pointer;
 }
 
-#featured-btn,
+#packages-btn,
 #testimonials-btn,
 #personal-guides-btn,
 #contact-btn {
@@ -53,14 +53,14 @@ body, html{
     color: #222;
 }
 
-#featured-btn:hover,
+#packages-btn:hover,
 #testimonials-btn:hover,
 #personal-guides-btn:hover,
 #contact-btn:hover {
     background-color: rgba(220, 220, 220, 0.6);
 }
 
-#featured-btn:active,
+#packages-btn:active,
 #testimonials-btn:active,
 #personal-guides-btn:active,
 #contact-btn:active {
