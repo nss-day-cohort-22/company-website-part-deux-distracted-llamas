@@ -1,0 +1,103 @@
+img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+} 
+
+/* card set up */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    text-align: center;
+    margin-bottom: 20px;
+    break-inside: avoid-column;
+}
+
+/* column set up */
+.testColumns {
+    column-count: 4;
+    column-gap: 40%;
+}
+
+/* adding text to the images */
+.bottom-right {
+    position: relative;
+    bottom: 60px;
+    background-color: rgba(196, 196, 196, 0.6);
+    margin-bottom: -45px;
+}
+
+/* testimonial text styling */
+.testimonialText {
+    background-color: rgba(196, 196, 196, 0.6);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.testSection {
+    margin-top: -10px;
+}
+
+.testMain {
+    padding-top: -25px;
+}
+
+/* Button */
+.button {
+    border-radius: 4px;
+    background-color: #FF533D;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* font */
+.testContent {
+    font-family: 'Lato', serif;
+    text-align: center;
+}
+
+.testHead {
+    font-size: 2.5em;
+    margin: -15px;
+}
+
+.testFrom {
+    font-size: 1em;
+}
+
+
+
+
+
