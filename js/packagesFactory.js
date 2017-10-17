@@ -3,10 +3,10 @@ const middleEarth = {
     "title": "MIDDLE-EARTH",
     "photo": "img/hobbiton.jpg",
     "guide": "Chase Steely",
-    "highlight1": " - Stay the night in a Hobbit Hole overlooking the Shire and drink a pint (or two) at the Green Dragon.",
-    "highlight2": " - Ride horses in Rohan located in the great vale between the Misty Mountains and the White Mountains.",
-    "highlight3": " - Practice archery with the Elves of Rivendell.",
-    "highlight4": " - Visit the Hot Springs of Mordor.",
+    "highlight1": "Stay the night in a Hobbit Hole overlooking the Shire and drink a pint (or two) at the Green Dragon.",
+    "highlight2": "Ride horses in Rohan located in the great vale between the Misty Mountains and the White Mountains.",
+    "highlight3": "Practice archery with the Elves of Rivendell.",
+    "highlight4": "Visit the Hot Springs of Mordor.",
     "duration": "14 Days"
 }
 

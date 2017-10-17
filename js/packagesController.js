@@ -13,8 +13,8 @@ for (let key in AdventureDatabase) {
         let item = currentAdventure[i]
 
         mapElement.innerHTML += `
-        <div class="chooseMap">
-        <a href="#${item.title}"
+        <div class="chooseMap" id="top">
+        <a href="#${item.title}">
         <picture class="map">
             <img src="${item.map}">
         </picture>
@@ -33,27 +33,43 @@ for (let key in AdventureDatabase) {
 
         // Build a string to insert into the DOM
         advElement.innerHTML += `
-        <article class="${key}">
-        
+        <article class="${key}" id="${item.title}">
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+                    
+          
+        </div
         <div class="wrapper">
-             <section class="package" id="${item.title}">
+             <section class="package">
                 <picture>
-                    <img src="${item.photo}">
+                    <img src="${item.photo}" class="packagePhoto">
                 </picture>
+                <div class="overlay">
                 <section class="packageInfo">
-                <h1 class="advTitle">${item.title}</h1>
-                <h4>Guide: ${item.guide}</h4>
-                <h4>Trip Length: ${item.duration}</h4>
+                <h1 class="advTitle ${item.title}">${item.title}</h1>
+                <h6>Guide: ${item.guide}</h6>
+                <h6>Trip Length: ${item.duration}</h6>
                 <ul class="highlights">
                     <li>${item.highlight1}</li>
                     <li>${item.highlight2}</li>
                     <li>${item.highlight3}</li>
                     <li>${item.highlight4}</li>
                 </ul>
+                <a href=”#top” class=”back-to-top”>
+                
+               <i class=”fa fa-arrow-circle-up”></i>
+                
+               </a>
                 </section>
+                </div>
             </section>
         </div>    
         </article>
+        <hr>
         `
     }
 }
