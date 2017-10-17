@@ -9,7 +9,7 @@
     <link rel="icon" href="img/favicon-bed.ico" type="image/x-icon"/>
     <title>FairyBnB</title>
     
-    <!-- <link rel="stylesheet" href="css/awesome-background.css"> -->
+    <!-- <link rel="stylesheet" href="css/awesome-background.css"> --> 
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/guides.css">
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
@@ -27,13 +27,14 @@
             <header><a href="/">FairyBnB</a></header>
             <nav>
                 <ul>
-                    <li id="packages-btn">Packages</li>
-                    <li id="testimonials-btn">Testimonials</li>
-                    <li id="personal-guides-btn">Personal Guides</li>                
+                    <li id="packages-btn"><a href="/packages.html">Packages</a></li>
+                    <li id="testimonials-btn"><a href="/testimonials.html">Testimonials</a></li>
+                    <li id="personal-guides-btn"><a href="/guides.html">Personal Guides</a></li>
+                    <li id="souvenirs-btn"><a href="/products.html">Souvenirs</a></li>                
                 </ul>
             </nav>
         </div>
-    </div> 
+        
     <header class="header">
         <h1>Meet Our Guides</h1>
 
@@ -43,8 +44,18 @@
         
 
     </section>
-    
+    <div id="back-to-top-container">
+        <i id="back-to-top" class="pulsate fa fa-angle-double-up" aria-hidden="true"></i>
+        <a href="mailto:support@fairybnb.com" target="_top">
+            <ul>
+                <li><i id="support" class="fa fa-envelope-o" aria-hidden="true"></i></li>
+                <li>Support</li>
+            </ul>
+        </a>            
+    </div>
+   </div> 
 </body>
 <script src="js/guides-factory.js"></script>
 <script src="js/guides-controller.js"></script>
+<script src="js/layout.js"></script>
 </html>
