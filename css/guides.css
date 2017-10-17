@@ -54,7 +54,7 @@ section.content img {
 
 #Middle-earth {
     background-image: url("../img/guides/hobbit.jpg");
-    background-size: 877px;
+    background-size: 1100px;
 }
 
 #Hogwarts {
@@ -69,4 +69,8 @@ section.content img {
 
 .age + .location + .content {
     font-family: lato, sans-serif
+}
+
+.age + .location {
+    font-weight: bold;
 }
