@@ -10,7 +10,7 @@ for (let i = 0; i < guidesEntries.length; i++) {
     
     guidesElement.innerHTML += `
     <article class="guides-entry">
-    <section class="content">
+    <section class="content" id="${element.location}">
     <p>${element.image}<p>
     <div class="text">
     <h2 class="name">${element.name}</h2>
