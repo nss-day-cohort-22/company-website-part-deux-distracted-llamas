@@ -53,22 +53,43 @@ html, body {
 #packages-btn,
 #testimonials-btn,
 #personal-guides-btn,
-#contact-btn {
+#souvenirs-btn {
     padding: 0.5em 1em;
     border-radius: .2em;
     text-decoration: none;
     color: #222;
 }
 
+#packages-btn a,
+#testimonials-btn a,
+#personal-guides-btn a,
+#souvenirs-btn a {
+    text-decoration: none;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    color: #222;
+}
+
+#packages-btn a:visited,
+#testimonials-btn a:visited,
+#personal-guides-btn a:visited,
+#souvenirs-btn a:visited {
+    /* text-decoration: none;
+    width: 100%;
+    height: 100%; */
+    color: #222;
+}
+
 #packages-btn:hover,
 #testimonials-btn:hover,
 #personal-guides-btn:hover,
-#contact-btn:hover {
+#souvenirs-btn:hover {
     background-color: rgba(220, 220, 220, 0.6);
 }
 
 #packages-btn:active,
-#testimonials-btn:active,
+#souvenirs-btn:active,
 #personal-guides-btn:active,
 #contact-btn:active {
     background-color: rgba(196, 196, 196, 0.6);
