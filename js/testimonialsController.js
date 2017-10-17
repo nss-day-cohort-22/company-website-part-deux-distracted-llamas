@@ -18,7 +18,7 @@ for (var i = 0; i < packagesParse.packageArray.length; i++) {
                 <section class="testimonialText">
                     <h3><em>"${item.testimonial}"</em></h3>
                 </section>
-                <button class="button"><span>${item.button}</span></button>
+                <a href="../packages.html"><button class="button"><span>${item.button}</span></button></a>
             </div>
         </div>
         `
