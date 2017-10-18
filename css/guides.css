@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: GameofThrones;
+    src: url(../fonts/GameofThrones.ttf);
+}
+
+/* body {
+    background-image: url("https://media.buzz.ie/uploads/2017/08/15185101/game-of-thrones-1x01-winter-is-coming-game-of-thrones-21138005-1280-720.jpg");
+} */
+
+.header {
+    text-align: center;
+    color: #1a001a;
+    font-family: GameofThrones;
+
+}
+
+.gInfo { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    clear: both;
+}
+
+section.content {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    
+}
+
+section.content img {
+    padding: 10px;
+    
+}
+
+.text {
+        padding: 0 20px 20px;
+        color: white;
+}
+
+
+#Westeros {
+    background-image: url("../img/guides/game-of-thrones.jpg" );
+    background-size: 877px;
+}
+
+#Narnia {
+    background-image: url("../img/guides/Narnia-Wallpaper-for-Desktop.jpg");
+    background-size: 1000px;
+}
+
+#Middle-earth {
+    background-image: url("../img/guides/hobbit.jpg");
+    background-size: 1100px;
+}
+
+#Hogwarts {
+    background-image: url("../img/guides/hogwarts.jpg");
+    background-size: 950px;
+}
+
+.name {
+   font-family: GameofThrones;
+}
+
+
+.age + .location + .content {
+    font-family: lato, sans-serif
+}
+
+.age + .location {
+    font-weight: bold;
+}
