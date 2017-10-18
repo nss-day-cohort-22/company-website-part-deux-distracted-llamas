@@ -93,3 +93,6 @@ $('#personal-guides #personal-guides-card img').attr('src', landingData.guides.i
 $('#personal-guides #personal-guides-card p').text(landingData.guides.content);
 $('#testimonials #testimonials-card img').attr('src', landingData.testimonials.image);
 $('#testimonials #testimonials-card p').text(landingData.testimonials.testimonial);
+
+$('#packages #packages-card img').attr('src', landingData.packages.photo);
+$('#packages #packages-card p').text(landingData.packages.highlight3);
