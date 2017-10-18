@@ -1,3 +1,4 @@
+
 /* Smooth Scroll */
 $('#back-to-top').click(function () {
     document.querySelector('#nav').scrollIntoView({
