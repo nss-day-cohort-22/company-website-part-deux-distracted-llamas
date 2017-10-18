@@ -61,7 +61,7 @@ for (let key in AdventureDatabase) {
                     <li>${item.highlight4}</li>
                 </ul>
                 <div class="btn">
-                <button class="button"><span>REGISTER</span></button>
+               <a href="/form.html" target="_blank"><button class="button"><span>REGISTER</span></button></a>
                 <a href="#top" ><button class="button"><span>BACK TO TOP</span></button></a>
                 </div>
                 </section>

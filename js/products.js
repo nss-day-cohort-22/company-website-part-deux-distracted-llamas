@@ -24,6 +24,8 @@ $('#easyPaginate').easyPaginate({
 
 
     $('a').click(function() {
+        $('#easyPaginate').css("margin-left", "300px");
+        $("html, body").animate({ scrollTop: 0 }, 10);
         if($("[title|='Page 1']").hasClass("current")) {
             // console.log('first')
             $('a.prev').hide();

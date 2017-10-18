@@ -164,7 +164,7 @@
                 });
                 plugin.el.html(plugin.currentElements);
                 plugin.currentElements.animate({
-                    'margin-left': 0,
+                    'margin-left': auto,
                     'opacity': 1
                 });
             };
