@@ -36,13 +36,13 @@ $('#personal-guides-btn').click(function () {
     });
 });
 $('#packages-card').click(function () {
-    window.location.href = "http://stackoverflow.com";
+    window.location.href = "/packages.html";
 });
 $('#testimonials-card').click(function () {
-    window.location.href = "http://stackoverflow.com";
+    window.location.href = "/testimonials.html";
 });
 $('#personal-guides-card').click(function () {
-    window.location.href = "http://stackoverflow.com";
+    window.location.href = "/guides.html";
 });
 // $('#contact-btn').click(function () {
 //     document.querySelector('#contact').scrollIntoView({
@@ -86,3 +86,10 @@ let checkScroll = function() {
 // $(document).ready(checkScroll);
 $(window).on('scroll', function() {checkScroll()});
 /* End Show/Hide Navigation */
+
+/* fetching data for this page */
+landingData = JSON.parse(localStorage.getItem("landingData"));
+$('#personal-guides #personal-guides-card img').attr('src', landingData.guides.image);
+$('#personal-guides #personal-guides-card p').text(landingData.guides.content);
+$('#testimonials #testimonials-card img').attr('src', landingData.testimonials.image);
+$('#testimonials #testimonials-card p').text(landingData.testimonials.testimonial);
